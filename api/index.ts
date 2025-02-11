@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 // Simple GET API
-app.get("/", (req: Request, res: Response) => {
+app.get("/new", (req: Request, res: Response) => {
     res.json({ message: "Hello, TypeScript with Express!" });
 });
 
